@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/styleLogin.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="./home.html" class="logo navbar-brand logo">Duy&Vu</a>
+
+                <div class ="search">
+                    <form action="" class="search" method="post">
+                       <input id="x" type="text" class="searchTerm" placeholder="Tìm sản phẩm">
+                       <span class="input-group-btn">
+                        <button class="btn btn-default " type="submit">
+                            <i class="fa fa-search"></i>
+                            <div class="spin  hidden"></div>
+                        </button>
+                    </span>
+                    </form>
+                 </div>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="#">menu</a></li>
+                    <li><a href="#">review</a></li>
+                    <li><a href="./product.html">product</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="./singup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="./login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li>
+                        <a href=""><span class="glyphicon glyphicon-shopping-cart"></span><span
+                                class="badge">0</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="main">
+        <form action="" method="POST" class="form" id="form-1">
+            <h3 class="heading">Đăng nhập</h3>
+            <div class="spacer"></div>
+
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" name="email" type="text" placeholder="VD: email@domain.com" class="form-control" />
+                <span class="form-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="password" class="form-label">Mật khẩu</label>
+                <input id="password" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control" />
+                <span class="form-message"></span>
+            </div>
+            <button class="form-submit">Đăng Nhập</button>
+        </form>
+    </div>
+
+    <footer class="container">
+
+        <div class="infoPage">
+
+            <p>Fan? Drop a note.</p>
+            <p><span class="glyphicon glyphicon-map-marker"></span>Chicago, US</p>
+            <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
+            <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
+        </div>
+
+        <h3 class="text-center">Các thành viên của nhóm 9</h3>
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#home">Trần Hoài Duy</a></li>
+            <li><a data-toggle="tab" href="#menu1">Nguyễn Thanh Vũ</a></li>
+
+        </ul>
+
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <h2>Mike Ross, Manager</h2>
+                <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum. Lorem ipsum dolor, sit
+                    amet consectetur adipisicing elit. Eveniet minus molestiae incidunt, fugit asperiores blanditiis
+                    fuga ratione dignissimos accusamus, tempora voluptatem quisquam et consequatur, laboriosam
+                    consequuntur maiores mollitia reprehenderit deleniti!</p>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+                <h2>Chandler Bing, Guitarist</h2>
+                <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased? Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit. Molestias ut ab enim magni, aspernatur
+                    temporibus numquam ipsam, vero dicta at ea, saepe sequi accusamus officiis dolor deserunt est
+                    cupiditate dolore.</p>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+                <h2>Peter Griffin, Bass player</h2>
+                <p>I mean, sometimes I enjoy the show, but other times I enjoy other things. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. In libero dolores suscipit deserunt. Cumque, veritatis quaerat. Iure
+                    doloremque, fuga amet est dignissimos mollitia natus aliquid, nemo quod provident atque enim?</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="../js/mainForm.js"></script>
+
+</html>

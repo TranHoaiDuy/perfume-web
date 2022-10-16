@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  html {
+    color: #333;
+    font-size: 62.5%;
+    font-family: "Open Sans", sans-serif;
+  }
+
+header {
+    position: relative;
+    height: 150px;
+    width: 1089px;
+    background-color: rgb(5, 145, 145);
+}
+
+.content {
+    padding: 50px;
+    width: 1080px;
+    height: 500px;
+    color: white;
+    font-weight: 400;
+    background-image: url(../images/glass-bottles-fragrance-perfume-cologne_107791-12287.webp);
+}
+
+
+
+
+.clear{
+    clear: both;
+}
